@@ -1,0 +1,25 @@
+usando o comando "dig 'endereço' -t ns  é retornado algumas informaçoes, no meio delas é possivel ver outros DNS do dominio
+ou usando apenas dig 'endereço'
+exemplo:
+dig navinet.com.br -t ns
+
+; <<>> DiG 9.16.8-Ubuntu <<>> navinet.com.br -t ns
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 28334
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;navinet.com.br.			IN	NS
+
+;; ANSWER SECTION:
+navinet.com.br.		600	IN	NS	ns2.navinet.com.br.   É POSSIVEL VER AQUI OUTRO DNS
+navinet.com.br.		600	IN	NS	ns1.navinet.com.br.   AQUI TAMBEM
+
+;; Query time: 179 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Wed Feb 16 18:14:08 -04 2022
+;; MSG SIZE  rcvd: 79
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////

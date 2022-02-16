@@ -1,0 +1,28 @@
+TIPO A: este tipo de registro deve ser usado se voce quer apontar o seu dominio ou subdominio para o endereço IP
+
+TIPO CNAME: aponta seu dominio ou subdominio para o endereço IP do dominio inscrito
+
+TIPO URL:  configura o redirecionamento de um dominio para outro
+
+TIPO Frame: premite configurar o redirecionamento de um dominio para outro sem alterar a URL
+
+TIPO MX: apontam diretamente para o servidos de email
+
+TIPO MXE: é usado para apontar para o endereço IP do servidor de email
+
+TIPO TXT: usados para configuracao da linha de SPF, que fazem valer as politicasde anti spam de grande parte dos servidores web
+
+TIPO NS: informa qual é o endereço dos servidores
+
+TIPO ANY:
+
+TIPO AAAA:
+
+TIPO CAA:
+
+TIPO PTR:
+
+TIPO SOA:
+
+TIPO SRV:
+

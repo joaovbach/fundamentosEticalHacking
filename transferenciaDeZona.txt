@@ -1,0 +1,1 @@
+nxfr retorna todos os dados de um zona de dns(que sao obtidos atras de 'dig 'endereço' -t 'type')
